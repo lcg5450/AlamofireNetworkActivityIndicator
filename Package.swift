@@ -35,6 +35,5 @@ let package = Package(
 	],
     targets: [
         .target(name: "AlamofireNetworkActivityIndicator", path: "Source"),
-        .testTarget(name: "NetworkActivityIndicatorManagerTests", dependencies: ["AlamofireNetworkActivityIndicator"]),
     ]
 )
