@@ -34,6 +34,6 @@ let package = Package(
     	.package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.0.0-beta.6")),
 	],
     targets: [
-        .target(name: "AlamofireNetworkActivityIndicator", path: "Source"),
+        .target(name: "AlamofireNetworkActivityIndicator", dependencies: ["Alamofire"]),
     ]
 )
